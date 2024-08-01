@@ -1,3 +1,4 @@
 .env
 artifacts
 .venv
+.songrecs.egg-info
