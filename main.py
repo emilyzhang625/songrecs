@@ -7,8 +7,8 @@ from sklearn.preprocessing import MinMaxScaler
 from helpers import get_album_pic
 from helpers import get_track_link
 
-song_list = pickle.load(open("/Users/emilyzhang/songrecs/artifacts/song_list.pkl", "rb"))
-song_data = pickle.load(open("/Users/emilyzhang/songrecs/artifacts/song_data.pkl", "rb"))
+song_list = pickle.load(open("artifacts/song_list.pkl", "rb"))
+song_data = pickle.load(open("artifacts/song_data.pkl", "rb"))
 
 st.header("Song Recommendations")
 
