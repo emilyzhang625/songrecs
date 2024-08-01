@@ -4,5 +4,3 @@ numpy
 streamlit
 requests
 python-dotenv
-setuptools
-wheel
