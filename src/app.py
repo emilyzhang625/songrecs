@@ -10,6 +10,10 @@ from helpers import get_track_link
 song_list = pickle.load(open("artifacts/song_list.pkl", "rb"))
 song_data = pickle.load(open("artifacts/song_data.pkl", "rb"))
 
+st.set_page_config(
+   page_title="Song Recommendations",
+)
+
 st.header("Song Recommendations")
 
 selected = st.selectbox("Please type or select a song", song_list)
