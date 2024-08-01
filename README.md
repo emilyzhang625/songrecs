@@ -1,4 +1,4 @@
-# Song Recommendation Engine
+# Song Recommendations
 A song recommendation system powered by machine-learning techniques for refined predictions. 
 
 **Live demo:** [Song Recommendations](https://ezsongrecs.streamlit.app/)  
