@@ -1,4 +1,4 @@
 .env
-artifacts
 .venv
 .songrecs.egg-info
+__pycache__
