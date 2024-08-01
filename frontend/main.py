@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import MinMaxScaler
-from services.info import get_album_pic
-from services.info import get_track_link
+from helpers import get_album_pic
+from helpers import get_track_link
 
 song_list = pickle.load(open("/Users/emilyzhang/songrecs/artifacts/song_list.pkl", "rb"))
 song_data = pickle.load(open("/Users/emilyzhang/songrecs/artifacts/song_data.pkl", "rb"))
@@ -29,7 +29,6 @@ def recommend_songs(song_name, song_artist):
     smaller_df = song_data[(song_data["year"] <= year + 2) & 
                 (song_data["year"] >= year - 2) & 
                   (song_data["playlist_subgenre"] == subgenre)].reset_index(drop=True)
-    print(smaller_df.shape)
 
     features = smaller_df[['danceability',
        'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness',
