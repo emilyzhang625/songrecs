@@ -1,7 +1,0 @@
-README.md
-setup.py
-songrecs.egg-info/PKG-INFO
-songrecs.egg-info/SOURCES.txt
-songrecs.egg-info/dependency_links.txt
-songrecs.egg-info/requires.txt
-songrecs.egg-info/top_level.txt
