@@ -1,5 +1,4 @@
 # Song Recommendations
-A song recommendation engine powered by collaborative filtering for refined predictions. 
 
 **Live Demo:** [Song Recommendations](https://ezsongrecs.streamlit.app/)  
 
